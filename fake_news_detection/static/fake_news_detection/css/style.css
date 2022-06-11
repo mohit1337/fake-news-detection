@@ -379,7 +379,8 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  //padding: 60px 0;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 
@@ -1065,7 +1066,7 @@ section {
 }
 
 .result {
-  min-height: 19.3rem;
+  min-height: 15rem;
 }
 
 .hide {
