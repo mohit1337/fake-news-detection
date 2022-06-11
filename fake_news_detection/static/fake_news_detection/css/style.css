@@ -788,19 +788,19 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
+.tool .info {
   padding: 20px 40px;
   background: #f1f3f6;
   color: #47536e;
   text-align: center;
   border: 1px solid #fff;
 }
-.contact .info i {
+.tool .info i {
   font-size: 48px;
   color: #9fb2d8;
   margin-bottom: 15px;
 }
-.contact .info h4 {
+.tool .info h4 {
   padding: 0;
   margin: 0 0 10px 0;
   font-size: 16px;
@@ -808,13 +808,13 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-.contact .info p {
+.tool .info p {
   font-size: 15px;
 }
-.contact .php-email-form {
+.tool .tool-form {
   width: 100%;
 }
-.contact .php-email-form .error-message {
+.tool .tool-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -822,10 +822,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.tool .tool-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.tool .tool-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -833,13 +833,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.tool .tool-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.tool .tool-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -851,26 +851,26 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form label {
+.tool .tool-form label {
   font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
   color: #8a8c95;
 }
-.contact .php-email-form input, .contact .php-email-form textarea, .contact .php-email-form select {
+.tool .tool-form input, .tool .tool-form textarea, .tool .tool-form select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.tool .tool-form input:focus, .tool .tool-form textarea:focus {
   border-color: #5777ba;
 }
-.contact .php-email-form input {
+.tool .tool-form input {
   padding: 10px 15px;
 }
-.contact .php-email-form textarea {
+.tool .tool-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.tool .tool-form button[type=submit] {
   background: #fff;
   border: 2px solid #5777ba;
   padding: 10px 24px;
@@ -879,17 +879,17 @@ section {
   border-radius: 50px;
   margin-top: 5px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.tool .tool-form button[type=submit]:hover {
   background: #5777ba;
   color: #fff;
 }
 @media (max-width: 1024px) {
-  .contact .php-email-form {
+  .tool .tool-form {
     padding: 30px 15px 15px 15px;
   }
 }
 @media (max-width: 768px) {
-  .contact .php-email-form {
+  .tool .tool-form {
     padding: 15px 0 0 0;
   }
 }
@@ -970,10 +970,10 @@ section {
   padding: 60px 0 30px 0;
   background: #fff;
 }
-#footer .footer-top .footer-contact {
+#footer .footer-top .footer-tool {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-contact h4 {
+#footer .footer-top .footer-tool h4 {
   font-size: 22px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
@@ -981,7 +981,7 @@ section {
   font-weight: 700;
   color: #47536e;
 }
-#footer .footer-top .footer-contact p {
+#footer .footer-top .footer-tool p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
