@@ -30,7 +30,7 @@ SECRET_KEY = "tama soma jyotir gamaya"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fakenews-platform.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['fakenews-platform.herokuapp.com', '127.0.0.1', 'quiet-river-36114.herokuapp.com']
 
 
 # Application definition
